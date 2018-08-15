@@ -8,7 +8,7 @@ class MainMemory:
 	no. of blocks = 2^24 / 2^2 = 2^22
 
 	Memory address of format:
-	|---8----|--------16------|-2-|
+	|---8----|--------14------|-2-|
 	| tag    |    line        | w |
 	'''
 	WORD_ADDR_SIZE = 24

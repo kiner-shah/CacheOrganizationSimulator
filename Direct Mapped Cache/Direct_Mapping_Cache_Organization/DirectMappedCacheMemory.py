@@ -11,7 +11,7 @@ class DirectMappedCacheMemory:
 	total no. of words = 2^14 * 4 = 2^16
 
 	Memory address of format:
-	|---8----|--------16------|-2-|
+	|---8----|--------14------|-2-|
 	| tag    |    line        | w |
 	'''
 	LINE_SIZE = 4
